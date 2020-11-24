@@ -1,23 +1,23 @@
-#page-dash {
+#page-aside {
     width: 100vw;
     height: 100vw;
 
-    position: relative;
+    position: fixed;
     display: flex;
 }
 
-#page-dash aside {
+#page-aside aside {
     width: 300px;
     background: linear-gradient(329.54deg, #003641 0%, #00A091 100%);
 
-    
+    border-radius: 5px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-start;
 }
 
-#page-dash aside h2 {
+#page-aside aside h2 {
     font-size: 30px;
     font-weight: 800;
     line-height: 42px;
@@ -25,32 +25,44 @@
     
 }
 
-#page-dash aside p {
+#page-aside aside p {
     line-height: 20px;
     margin-left: 57px;
     font-weight: 600;
 }
 
-#page-dash aside footer {
+#page-aside aside footer {
     display: flex;
     flex-direction: column;
 
     line-height: 24px;
 }
 
-#page-dash aside footer strong {
-    font-weight: 800;
+#page-aside aside footer strong {
+    font-weight: 400;
+    margin-left: 3rem;
+    margin-top: 9rem;
+
 }
 
-#page-dash aside img {
+#page-aside aside img {
     height: 80px;
     margin-top: 20px;
     margin-left: 100px;
   
 }
 
+
+
+#aside-line{
+    margin-top: 4rem;
+    border-radius: 10px;
+    border: 2px solid #FFFF;
+    opacity: 0.2;
+}
+
 #side-menu {
-    margin-top: 50px;
+    margin-top: 2rem;
 }
 
 #side-menu ul {
@@ -61,7 +73,7 @@
 }
 
 #side-menu ul li {
-    font-weight: 600;
+    font-weight: 400;
     padding: 10px;
     position: relative;
     display: flex;

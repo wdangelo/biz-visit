@@ -1,0 +1,31 @@
+
+#page-agencies .leaflet-container{
+    z-index: 5;
+}
+
+#page-agencies .add-agencies{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+
+    z-index: 10;
+
+    border-radius: 15px;
+
+    width: 64px;
+    height: 64px;
+    background: #15c3d6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.2s;
+
+}
+
+#page-agencies .add-agencies:hover {
+    background: #17d6eb;
+}
+
+
